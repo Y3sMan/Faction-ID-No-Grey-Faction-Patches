@@ -251,7 +251,7 @@ end
 
 function on_game_start()
     override()
-    RegisterScriptCallback("on_game_load", override())
+    RegisterScriptCallback("on_game_load", override)
 end
 
 
